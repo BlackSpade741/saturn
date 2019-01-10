@@ -8,7 +8,7 @@ The initial development of the application was done on a private repository offi
 Saturn is an application that can be used to remember upcoming events and releases. Saturn is not a calendar, unlike a calendar which is *typically* sparsely populated with events, Saturn records your most important standout events like new product releases, concerts, television premiers, and sports tournaments. Better yet Saturn takes all the guess work out and rather than showing you empty cells for every day we only serve you elements for events you are attending or interested in simplifying and improving the user experience. 
 
 ## Technologies Used
-Saturn is built with Java and vanilla Android in Android Studio. The web scrapers we used 
+Saturn is built with Java and vanilla Android in Android Studio. The web scrapers we used to populate our database were built with Python. The development database used was hosted on ElephantSQL, and interfaced with JDBC. 
 
 ## Business Oppurtunities
 Saturn would be free to use with profit coming from partnerships. Companies could pay to show their events to more users and Saturn could implement deep links into online stores and streaming services.
