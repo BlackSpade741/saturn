@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="app_name">S@turn"</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_username">Username </string>
+
+
+    <!-- Strings related to main navigation menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_browse">Browse</string>
+    <string name="menu_following">Following</string>
+    <string name="menu_mine">Mine</string>
+
+    <!-- Strings related to home screen -->
+    <string name="home_events_coming_up">Your Events Coming Up</string>
+    <string name="home_suggestions">Suggestions</string>
+    <string name="home_popular">Popular on Saturn</string>
+
+    <!-- Strings related to mine screen -->
+    <string name="mine_calendar">Calendar</string>
+    <string name="event_default_Date">Date</string>
+    <string name="event_default_artist">Artist</string>
+    <string name="event_default_location">Location</string>
+    <string name="event_noevents_message">No events found.</string>
+
+    <string name="artist_noartists_message">No artists found.</string>
+    <string name="category_name_default">Category</string>
+    <string name="category_title">Browse %1$s Events</string>
+</resources>

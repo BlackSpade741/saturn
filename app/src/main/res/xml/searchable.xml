@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="searchBar"
+    android:hint="Search"
+    android:searchButtonText="search"
+    android:includeInGlobalSearch="false"
+    android:queryAfterZeroResults="true"
+    />

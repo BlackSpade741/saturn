@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollIndicators="right"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbars="vertical"
+    tools:context=".front_end.views.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_events_coming_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/home_events_coming_up"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_events_coming_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d3d3d3"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:dividerHeight="2dp"
+            android:padding="10dp"
+            tools:listitem="@layout/layout_eventitem_full" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/home_popular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d3d3d3"
+            android:dividerHeight="2dp"
+            android:padding="10dp"
+            tools:listitem="@layout/layout_eventitem_full">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/home_suggestions"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#d3d3d3"
+            android:dividerHeight="2dp"
+            android:padding="10dp"
+            tools:listitem="@layout/layout_eventitem_full"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
+
